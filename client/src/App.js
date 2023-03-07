@@ -11,7 +11,7 @@ import gameLogo from "./assets/3pattilogo.png";
 
 import "./App.css";
 
-const socket = io('http://localhost:4000');
+const socket = io('https://threepatti.onrender.com');
 
 const playerPositionss = [
   {top: "22%", left: "-25px"},
